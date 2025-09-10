@@ -20,7 +20,7 @@ public class bai4 {
         double r = laiSuatNam / 100;
         double tongtien = sotiengoc * Math.pow((1 + r / 12), sothang);
         double tienlai = tongtien - sotiengoc;
-        System.out.println("  Tien lai = " + tienlai + " VND");
-        System.out.println("  So tien cuoi ky = " + tongtien + " VND");
+        System.out.println("Tien lai = " + tienlai + " VND");
+        System.out.println("So tien cuoi ky = " + tongtien + " VND");
     }    
 }
